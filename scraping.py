@@ -141,7 +141,7 @@ def mars_hemispheres():
         hemisphere_image_urls.append(hemispheres)
         
         browser.visit(url)
-        
+    browser.quit()    
     # spit out list
     return hemisphere_image_urls
 
